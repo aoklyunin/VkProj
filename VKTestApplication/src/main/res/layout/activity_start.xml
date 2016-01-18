@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        >
+
+        <Button
+            android:layout_column="3"
+            android:id="@+id/sign_in_button"
+            android:text="Войти в ВК"
+            android:onClick="btnSignIn"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+        <Button
+            android:layout_column="3"
+            android:id="@+id/sign_out_button"
+            android:text="Выйти из ВК"
+            android:onClick="btnSignOut"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        >
+
+        <ProgressBar
+            android:id="@+id/firstBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:visibility="gone"
+            android:layout_span="3"
+            />
+        <TextView
+            android:id="@+id/barText"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:visibility="gone"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <Button
+            android:onClick="btnLoadAudio"
+            android:id= "@+id/load_button_audio"
+            android:text = "Загрузить музыку"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            />
+        <Button
+            android:onClick="btnLoadFile"
+            android:id= "@+id/load_button_file"
+            android:text = "Загрузить"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            />
+        <Button
+            android:onClick="btnRecommend"
+            android:id= "@+id/recommend_button"
+            android:text = "Рекомендуемые"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            />
+
+    </TableRow>
+
+    <TableRow android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="2dp">
+        <Button
+            android:onClick="btnCreateDB"
+            android:id= "@+id/create_db"
+            android:text = "Создать БД"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            />
+        <Button
+            android:onClick="btnFillDB"
+            android:id= "@+id/fill_db"
+            android:text = "Заполнить БД"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            />
+        <Button
+            android:onClick="btnDisplayDB"
+            android:id= "@+id/display_bd"
+            android:text = "Вывод БД"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            />
+        <Button
+            android:onClick="btnDeleteDB"
+            android:id= "@+id/delete_bd"
+            android:text = "Удалить БД"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id = "@+id/listView1"
+            android:maxLines="10"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id = "@+id/textView1"
+
+            android:layout_span="3"
+            android:singleLine="false"
+            android:maxLines="30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </TableRow>
+
+</TableLayout>

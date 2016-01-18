@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Programming\VkProj\VKTestApplication\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Programming\VkProj\VKTestApplication\build\intermediates\pre-dexed\debug\classes-6f85ab8cc8d3362e2c3b2cb601762977891b9a3c.jar" />
+    </item>
+    <item
+        jar="C:\Programming\VkProj\VKTestApplication\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="C:\Programming\VkProj\VKTestApplication\build\intermediates\pre-dexed\debug\classes-31a99b59864201a761a42601c2789ec5c58d78e5.jar" />
+    </item>
+    <item
+        jar="C:\Programming\VkProj\VKTestApplication\build\intermediates\exploded-aar\com.vk\vksdk_library\1.6.2\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b50a4e67bd600820b780fcd620fbc738b10259f5">
+        <dex dex="C:\Programming\VkProj\VKTestApplication\build\intermediates\pre-dexed\debug\classes-c3f9d46dcdc32cad23ff50cba03909837780c58c.jar" />
+    </item>
+    <item
+        jar="C:\Programming\VkProj\VKTestApplication\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="C:\Programming\VkProj\VKTestApplication\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-7dd9159f17f677eb65933dddf4565bda20efe83d.jar" />
+    </item>
+    <item
+        jar="C:\android-sdks\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="C:\Programming\VkProj\VKTestApplication\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-a6b32f788c45f532b3a39153474c4a8d36365bc3.jar" />
+    </item>
+
+</items>
