@@ -321,6 +321,9 @@ Class Reference
 =========
 [See the full classes reference at GitHub pages](http://vkcom.github.io/vk-android-sdk/)
 #   V k P r o j  
+<<<<<<< HEAD
  #   V k P r o j  
  #   V k P r o j  
+=======
+>>>>>>> origin/master
  
